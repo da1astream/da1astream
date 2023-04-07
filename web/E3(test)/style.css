@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    width: auto;
+    display: block;
+    height: 750px;
+    background-size: 100% 100%;
+    background-image: url("img/hfon.jpg");
+}
+
+.htext {
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+}
+
+.htext h1 {
+    font-size: 40px;
+}
+
+.htext p {
+    font-size: 20px;
+}
+
+header button {
+    width: 170px;
+    height: 50px;
+    margin-top: 50px;
+    background: rgba(64, 45, 151, 0);
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+header button:hover {
+    background-color: white;
+    color: #000000;
+    transition: all 0.7s;
+}
+
+.block1 {
+    width: auto;
+    height: 750px;
+    background-image: url("img/f1.jpg");
+    background-size: 100% 100%;
+}
+
+.textcols {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.textcols-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 48%;
+}
+
+.content1 {
+    color: white;
+    width: 60%;
+    margin-top: 40%;
+    margin-left: 25%;
+}
+
+h2.content1 {
+    font-size: 40px;
+}
+
+.content1 p {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+article button {
+    width: 170px;
+    height: 50px;
+    margin-top: 30px;
+    color: white;
+    text-transform: uppercase;
+    background-color: white;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+article button:hover {
+    background: rgba(64, 45, 151, 0);
+    border: 2px solid white;
+    color: white;
+    transition: all 0.7s;
+}
+
+.content2 {
+    margin-top: 30%;
+}
+
+footer {
+    width: auto;
+    height: 50px;
+    background-color: rgb(14, 0, 39);
+}
+
+
